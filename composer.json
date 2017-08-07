@@ -11,8 +11,14 @@
     "issues": "https://github.com/islandora-claw/CLAW/issues",
     "irc": "irc://irc.freenode.net/islandora"
   },
+  "repositories": [
+      {
+          "type": "vcs",
+          "url": "https://github.com/dannylamb/islandora_collection"
+      }
+  ],
   "require": {
-    "islandora/islandora_collection": "dev-8.x-1.x",
+    "islandora/islandora_collection": "dev-640-install",
     "drupal/media_entity_image": "^1.2"
   }
 }
